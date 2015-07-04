@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f59b106f2b479e0fcdb6d2cf2a25f5b2",
+    "hash": "a5a6150e9b6cb491fe83e3749fabe996",
     "packages": [
         {
             "name": "alt-three/bugsnag",
@@ -132,16 +132,16 @@
         },
         {
             "name": "bugsnag/bugsnag",
-            "version": "v2.5.4",
+            "version": "v2.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bugsnag/bugsnag-php.git",
-                "reference": "f013ca96b359a9675358710a52ba1aee6c508925"
+                "reference": "30af9dfc67c42bd3c392c7917b4b35d08a53da74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bugsnag/bugsnag-php/zipball/f013ca96b359a9675358710a52ba1aee6c508925",
-                "reference": "f013ca96b359a9675358710a52ba1aee6c508925",
+                "url": "https://api.github.com/repos/bugsnag/bugsnag-php/zipball/30af9dfc67c42bd3c392c7917b4b35d08a53da74",
+                "reference": "30af9dfc67c42bd3c392c7917b4b35d08a53da74",
                 "shasum": ""
             },
             "require": {
@@ -176,39 +176,33 @@
                 "logging",
                 "tracking"
             ],
-            "time": "2015-04-13 19:09:41"
+            "time": "2015-07-01 02:43:15"
         },
         {
             "name": "classpreloader/classpreloader",
-            "version": "1.4.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ClassPreloader/ClassPreloader.git",
-                "reference": "b76f3f4f603ebbe7e64351a7ef973431ddaf7b27"
+                "reference": "8c3c14b10309e3b40bce833913a6c0c0b8c8f962"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ClassPreloader/ClassPreloader/zipball/b76f3f4f603ebbe7e64351a7ef973431ddaf7b27",
-                "reference": "b76f3f4f603ebbe7e64351a7ef973431ddaf7b27",
+                "url": "https://api.github.com/repos/ClassPreloader/ClassPreloader/zipball/8c3c14b10309e3b40bce833913a6c0c0b8c8f962",
+                "reference": "8c3c14b10309e3b40bce833913a6c0c0b8c8f962",
                 "shasum": ""
             },
             "require": {
                 "nikic/php-parser": "~1.3",
-                "php": ">=5.3.3",
-                "symfony/console": "~2.1",
-                "symfony/filesystem": "~2.1",
-                "symfony/finder": "~2.1"
+                "php": ">=5.5.9"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.0"
             },
-            "bin": [
-                "classpreloader.php"
-            ],
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "2.0-dev"
                 }
             },
             "autoload": {
@@ -227,7 +221,7 @@
                 },
                 {
                     "name": "Graham Campbell",
-                    "email": "graham@cachethq.io"
+                    "email": "graham@alt-three.com"
                 }
             ],
             "description": "Helps class loading performance by generating a single PHP file containing all of the autoloaded files for a specific use case",
@@ -236,7 +230,7 @@
                 "class",
                 "preload"
             ],
-            "time": "2015-05-26 10:57:51"
+            "time": "2015-06-28 21:39:13"
         },
         {
             "name": "danielstjules/stringy",
@@ -400,12 +394,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
-                "reference": "213e75a3100253c0af84baee62cf74168f71c178"
+                "reference": "9ec4982baba8d0edefcd84f40a77a466fe30eca8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/213e75a3100253c0af84baee62cf74168f71c178",
-                "reference": "213e75a3100253c0af84baee62cf74168f71c178",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/9ec4982baba8d0edefcd84f40a77a466fe30eca8",
+                "reference": "9ec4982baba8d0edefcd84f40a77a466fe30eca8",
                 "shasum": ""
             },
             "require": {
@@ -446,7 +440,7 @@
                 }
             ],
             "description": "A tool to automatically fix PHP code style",
-            "time": "2015-06-22 18:55:49"
+            "time": "2015-06-28 16:32:35"
         },
         {
             "name": "fideloper/proxy",
@@ -501,16 +495,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "1.1.6",
+            "version": "1.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "37b5e653c99cbb9113108d7dc59a0ddc306acc46"
+                "reference": "72538eeb70bbfb11964412a3d098d109efd012f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/37b5e653c99cbb9113108d7dc59a0ddc306acc46",
-                "reference": "37b5e653c99cbb9113108d7dc59a0ddc306acc46",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/72538eeb70bbfb11964412a3d098d109efd012f7",
+                "reference": "72538eeb70bbfb11964412a3d098d109efd012f7",
                 "shasum": ""
             },
             "require": {
@@ -555,7 +549,7 @@
                 "whoops",
                 "zf2"
             ],
-            "time": "2015-05-29 15:12:07"
+            "time": "2015-06-29 05:42:04"
         },
         {
             "name": "gitonomy/gitlib",
@@ -610,69 +604,6 @@
             "description": "Library for accessing git",
             "homepage": "http://gitonomy.com",
             "time": "2014-11-30 01:11:05"
-        },
-        {
-            "name": "graham-campbell/binput",
-            "version": "v3.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/GrahamCampbell/Laravel-Binput.git",
-                "reference": "fa3c6306a903932b0e82738ab2788e73fdf9f9c7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/GrahamCampbell/Laravel-Binput/zipball/fa3c6306a903932b0e82738ab2788e73fdf9f9c7",
-                "reference": "fa3c6306a903932b0e82738ab2788e73fdf9f9c7",
-                "shasum": ""
-            },
-            "require": {
-                "graham-campbell/security": "~3.2",
-                "illuminate/contracts": "5.0.*|5.1.*",
-                "illuminate/http": "5.0.*|5.1.*",
-                "illuminate/support": "5.0.*|5.1.*",
-                "php": ">=5.5.9"
-            },
-            "require-dev": {
-                "graham-campbell/testbench": "~3.0",
-                "mockery/mockery": "^0.9.4",
-                "phpunit/phpunit": "^4.7.6"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "GrahamCampbell\\Binput\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Graham Campbell",
-                    "email": "graham@alt-three.com"
-                }
-            ],
-            "description": "Binput Is An Input Protector For Laravel 5",
-            "keywords": [
-                "Binput",
-                "Graham Campbell",
-                "GrahamCampbell",
-                "Laravel Binput",
-                "Laravel-Binput",
-                "better",
-                "better input",
-                "framework",
-                "input",
-                "laravel",
-                "security"
-            ],
-            "time": "2015-06-26 17:33:45"
         },
         {
             "name": "graham-campbell/core",
@@ -987,63 +918,6 @@
             "time": "2015-06-26 17:39:20"
         },
         {
-            "name": "graham-campbell/security",
-            "version": "v3.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/GrahamCampbell/Laravel-Security.git",
-                "reference": "e3c0409218ced4bb4dc88a4d85fb58b670679141"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/GrahamCampbell/Laravel-Security/zipball/e3c0409218ced4bb4dc88a4d85fb58b670679141",
-                "reference": "e3c0409218ced4bb4dc88a4d85fb58b670679141",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/contracts": "5.0.*|5.1.*",
-                "illuminate/support": "5.0.*|5.1.*",
-                "php": ">=5.5.9"
-            },
-            "require-dev": {
-                "graham-campbell/testbench": "~3.0",
-                "phpunit/phpunit": "^4.7.6"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "GrahamCampbell\\Security\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Graham Campbell",
-                    "email": "graham@alt-three.com"
-                }
-            ],
-            "description": "Security Is A Port Of The Security Class From Codeigniter 3 For Laravel 5",
-            "keywords": [
-                "Graham Campbell",
-                "GrahamCampbell",
-                "Laravel Security",
-                "Laravel-Security",
-                "codeigniter",
-                "framework",
-                "laravel",
-                "security"
-            ],
-            "time": "2015-06-26 17:29:42"
-        },
-        {
             "name": "guzzle/guzzle",
             "version": "v3.9.3",
             "source": {
@@ -1144,12 +1018,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "9c43893a8e580d8401e4210cebe038d850341012"
+                "reference": "66737d2024d49c06bd294f33d60eb369f18b20f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/9c43893a8e580d8401e4210cebe038d850341012",
-                "reference": "9c43893a8e580d8401e4210cebe038d850341012",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/66737d2024d49c06bd294f33d60eb369f18b20f2",
+                "reference": "66737d2024d49c06bd294f33d60eb369f18b20f2",
                 "shasum": ""
             },
             "require": {
@@ -1170,7 +1044,7 @@
             },
             "autoload": {
                 "files": [
-                    "src/functions.php"
+                    "src/functions_include.php"
                 ],
                 "psr-4": {
                     "GuzzleHttp\\": "src/"
@@ -1198,7 +1072,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2015-06-25 01:00:39"
+            "time": "2015-06-30 20:37:09"
         },
         {
             "name": "guzzlehttp/promises",
@@ -1456,16 +1330,16 @@
         },
         {
             "name": "knplabs/github-api",
-            "version": "1.4.12",
+            "version": "1.4.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/php-github-api.git",
-                "reference": "ccf5e49a2454c1b102333586d80ce67012b5080f"
+                "reference": "9010dbe21f4b0bae0edae26bbe031d7d91347938"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/php-github-api/zipball/ccf5e49a2454c1b102333586d80ce67012b5080f",
-                "reference": "ccf5e49a2454c1b102333586d80ce67012b5080f",
+                "url": "https://api.github.com/repos/KnpLabs/php-github-api/zipball/9010dbe21f4b0bae0edae26bbe031d7d91347938",
+                "reference": "9010dbe21f4b0bae0edae26bbe031d7d91347938",
                 "shasum": ""
             },
             "require": {
@@ -1486,8 +1360,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Github\\": "lib/"
+                "psr-4": {
+                    "Github\\": "lib/Github/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1513,24 +1387,24 @@
                 "gist",
                 "github"
             ],
-            "time": "2015-06-17 08:02:22"
+            "time": "2015-07-03 14:59:20"
         },
         {
             "name": "laravel/framework",
-            "version": "v5.1.3",
+            "version": "v5.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "a7ebd043ca178c05cc7946ece03d3a268a5a3f84"
+                "reference": "356418f315e4f6bf55d2f4bd451606e45a7595df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/a7ebd043ca178c05cc7946ece03d3a268a5a3f84",
-                "reference": "a7ebd043ca178c05cc7946ece03d3a268a5a3f84",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/356418f315e4f6bf55d2f4bd451606e45a7595df",
+                "reference": "356418f315e4f6bf55d2f4bd451606e45a7595df",
                 "shasum": ""
             },
             "require": {
-                "classpreloader/classpreloader": "~1.2",
+                "classpreloader/classpreloader": "~2.0",
                 "danielstjules/stringy": "~1.8",
                 "doctrine/inflector": "~1.0",
                 "ext-mbstring": "*",
@@ -1641,7 +1515,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-06-24 19:38:07"
+            "time": "2015-07-03 13:48:44"
         },
         {
             "name": "league/flysystem",
@@ -3468,32 +3342,34 @@
         },
         {
             "name": "vinkla/pusher",
-            "version": "1.1.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vinkla/pusher.git",
-                "reference": "9f65e7f19b9acee34ca7637e4ccc65c8e0a4478f"
+                "reference": "6267504c6ccc1aa2ff3cccd2905a91c36759fd1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vinkla/pusher/zipball/9f65e7f19b9acee34ca7637e4ccc65c8e0a4478f",
-                "reference": "9f65e7f19b9acee34ca7637e4ccc65c8e0a4478f",
+                "url": "https://api.github.com/repos/vinkla/pusher/zipball/6267504c6ccc1aa2ff3cccd2905a91c36759fd1a",
+                "reference": "6267504c6ccc1aa2ff3cccd2905a91c36759fd1a",
                 "shasum": ""
             },
             "require": {
-                "graham-campbell/manager": "~2.1",
+                "graham-campbell/manager": "~2.2",
                 "illuminate/contracts": "5.0.*|5.1.*",
                 "illuminate/support": "5.0.*|5.1.*",
                 "php": ">=5.5.9",
                 "pusher/pusher-php-server": "~2.0"
             },
             "require-dev": {
-                "graham-campbell/testbench": "~2.1"
+                "graham-campbell/testbench": "~3.0",
+                "mockery/mockery": "^0.9.4",
+                "phpunit/phpunit": "^4.7.6"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.1-dev"
                 }
             },
             "autoload": {
@@ -3511,7 +3387,7 @@
                     "email": "hello@vinkla.com"
                 }
             ],
-            "description": "Laravel wrapper for the Pusher HTTP REST API.",
+            "description": "A Pusher bridge for Laravel",
             "keywords": [
                 "api",
                 "events",
@@ -3524,7 +3400,7 @@
                 "rest",
                 "trigger"
             ],
-            "time": "2015-05-08 07:48:39"
+            "time": "2015-07-01 06:38:03"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -4201,16 +4077,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "2.1.6",
+            "version": "2.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "631e365cf26bb2c078683e8d9bcf8bc631ac4d44"
+                "reference": "07e27765596d72c378a6103e80da5d84e802f1e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/631e365cf26bb2c078683e8d9bcf8bc631ac4d44",
-                "reference": "631e365cf26bb2c078683e8d9bcf8bc631ac4d44",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/07e27765596d72c378a6103e80da5d84e802f1e4",
+                "reference": "07e27765596d72c378a6103e80da5d84e802f1e4",
                 "shasum": ""
             },
             "require": {
@@ -4259,7 +4135,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-06-19 07:11:55"
+            "time": "2015-06-30 06:52:35"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -4441,16 +4317,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.8.x-dev",
+            "version": "4.7.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "21b619c6f0386a06d1646f401a398af3d33fc047"
+                "reference": "0ebabb4cda7d066be8391dfdbaf57fe70ac9a99b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/21b619c6f0386a06d1646f401a398af3d33fc047",
-                "reference": "21b619c6f0386a06d1646f401a398af3d33fc047",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/0ebabb4cda7d066be8391dfdbaf57fe70ac9a99b",
+                "reference": "0ebabb4cda7d066be8391dfdbaf57fe70ac9a99b",
                 "shasum": ""
             },
             "require": {
@@ -4483,7 +4359,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.8.x-dev"
+                    "dev-master": "4.7.x-dev"
                 }
             },
             "autoload": {
@@ -4509,20 +4385,20 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-06-25 05:24:49"
+            "time": "2015-06-30 06:53:57"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "2.3.4",
+            "version": "2.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "92408bb1968a81b3217a6fdf6c1a198da83caa35"
+                "reference": "1c330b1b6e1ea8fd15f2fbea46770576e366855c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/92408bb1968a81b3217a6fdf6c1a198da83caa35",
-                "reference": "92408bb1968a81b3217a6fdf6c1a198da83caa35",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/1c330b1b6e1ea8fd15f2fbea46770576e366855c",
+                "reference": "1c330b1b6e1ea8fd15f2fbea46770576e366855c",
                 "shasum": ""
             },
             "require": {
@@ -4564,7 +4440,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2015-06-11 15:55:48"
+            "time": "2015-07-04 05:41:32"
         },
         {
             "name": "sebastian/comparator",

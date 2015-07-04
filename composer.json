@@ -1,7 +1,7 @@
 {
     "name": "styleci/styleci",
     "description": "StyleCI Is The PHP Coding Style Continuous Integration Service",
-    "keywords": ["laravel", "framework", "styleci", "ci", "cs", "coding standard", "Style CI", "StyleCI", "Alt Three"],
+    "keywords": ["StyleCI", "CS", "Laravel", "Alt Three"],
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -20,11 +20,10 @@
     ],
     "require": {
         "php": "^5.5.9",
-        "laravel/framework": "~5.1.3",
+        "laravel/framework": "~5.1.6",
         "alt-three/bugsnag": "^1.0",
         "alt-three/logger": "^1.0",
         "fideloper/proxy": "^3.0",
-        "graham-campbell/binput": "^3.2",
         "graham-campbell/exceptions": "^3.1",
         "graham-campbell/core": "^4.1",
         "graham-campbell/github": "^4.0",
@@ -34,7 +33,7 @@
         "styleci/fixer": "^0.4",
         "styleci/git": "^0.2",
         "styleci/login": "^0.2",
-        "vinkla/pusher": "^1.1"
+        "vinkla/pusher": "^2.0"
     },
     "require-dev": {
         "doctrine/dbal": "^2.5",
