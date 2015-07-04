@@ -55,4 +55,17 @@ return [
 
     'scopes' => ['admin:repo_hook', 'public_repo', 'read:org', 'user:email'],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Allowed Users
+    |--------------------------------------------------------------------------
+    |
+    | This defines list of allowed users. Empty means allow everyone.
+    |
+    | Default to [].
+    |
+    */
+
+    'allowed' => [],
+
 ];

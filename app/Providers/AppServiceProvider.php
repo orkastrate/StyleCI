@@ -55,7 +55,7 @@ class AppServiceProvider extends ServiceProvider
     {
         $this->app->singleton(Authenticate::class, function ($app) {
             $auth = $app['auth.driver'];
-            $allowed = $app->config->get('styleci.allowed', []);
+            $allowed = $app->config->get('login.allowed', []);
 
             return new Authenticate($auth, $allowed);
         });
