@@ -84,7 +84,7 @@ class RepoToggledNotificationHandler
         foreach ($this->userRepository->collaborators($event->repo) as $user) {
             $mail['email'] = $user->email;
             $mail['name'] = $this->presenter->decorate($user)->firstName;
-            $this->mailer->send(["emails.{$view}-html", "emails.{$view}-text"], $mail, function (Message $message) use ($mail) {
+            $this->mailer->queue(["emails.{$view}-html", "emails.{$view}-text"], $mail, function (Message $message) use ($mail) {
                 $message->to($mail['email'])->subject($mail['subject']);
             });
         }

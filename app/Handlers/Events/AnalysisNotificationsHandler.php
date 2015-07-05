@@ -11,7 +11,7 @@
 
 namespace StyleCI\StyleCI\Handlers\Events;
 
-use Illuminate\Contracts\Mail\Mailer;
+use Illuminate\Contracts\Mail\MailQueue;
 use Illuminate\Mail\Message;
 use McCool\LaravelAutoPresenter\AutoPresenter;
 use StyleCI\StyleCI\Models\Commit;
@@ -34,7 +34,7 @@ class AnalysisNotificationsHandler
     /**
      * The mailer instance.
      *
-     * @var \Illuminate\Contracts\Mail\Mailer
+     * @var \Illuminate\Contracts\Mail\MailQueue
      */
     protected $mailer;
 
@@ -49,12 +49,12 @@ class AnalysisNotificationsHandler
      * Create a new analysis notifications handler instance.
      *
      * @param \StyleCI\StyleCI\Repositories\UserRepository $userRepository
-     * @param \Illuminate\Contracts\Mail\Mailer            $mailer
+     * @param \Illuminate\Contracts\Mail\MailQueue         $mailer
      * @param \McCool\LaravelAutoPresenter\AutoPresenter   $presenter
      *
      * @return void
      */
-    public function __construct(UserRepository $userRepository, Mailer $mailer, AutoPresenter $presenter)
+    public function __construct(UserRepository $userRepository, MailQueue $mailer, AutoPresenter $presenter)
     {
         $this->userRepository = $userRepository;
         $this->mailer = $mailer;
@@ -117,7 +117,7 @@ class AnalysisNotificationsHandler
         foreach ($this->userRepository->collaborators($commit) as $user) {
             $mail['email'] = $user->email;
             $mail['name'] = $this->presenter->decorate($user)->firstName;
-            $this->mailer->send(["emails.{$status}-html", "emails.{$status}-text"], $mail, function (Message $message) use ($mail) {
+            $this->mailer->queue(["emails.{$status}-html", "emails.{$status}-text"], $mail, function (Message $message) use ($mail) {
                 $message->to($mail['email'])->subject($mail['subject']);
             });
         }
