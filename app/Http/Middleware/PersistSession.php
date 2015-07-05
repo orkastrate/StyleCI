@@ -13,6 +13,7 @@ namespace StyleCI\StyleCI\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
+use Illuminate\Session\CookieSessionHandler;
 use Illuminate\Session\SessionManager;
 
 /**
