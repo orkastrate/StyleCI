@@ -23,7 +23,7 @@
         </div>
         <div class="row">
             <div class="col-xs-12 copyright">
-                &copy; {{ date('Y') }} Alt Three LTD
+                &copy; {{ date('Y') }} Alt Three Services Limited
             </div>
         </div>
     </div>
