@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AltThree/Bugsnag.git",
-                "reference": "2993e5036484424f2a7f60752b35495a616747ff"
+                "reference": "be4ba29f01e2cf314caf2f999dc322ccafb7790e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AltThree/Bugsnag/zipball/2993e5036484424f2a7f60752b35495a616747ff",
-                "reference": "2993e5036484424f2a7f60752b35495a616747ff",
+                "url": "https://api.github.com/repos/AltThree/Bugsnag/zipball/be4ba29f01e2cf314caf2f999dc322ccafb7790e",
+                "reference": "be4ba29f01e2cf314caf2f999dc322ccafb7790e",
                 "shasum": ""
             },
             "require": {
@@ -67,7 +67,7 @@
                 "Bridge",
                 "bugsnag"
             ],
-            "time": "2015-06-26 18:48:12"
+            "time": "2015-07-06 16:34:33"
         },
         {
             "name": "alt-three/logger",
@@ -75,12 +75,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AltThree/Logger.git",
-                "reference": "8a92e00787c590cba797dd43a5e568cee2c0b60b"
+                "reference": "2456ec8e0ddee1d140c7cedcc04fabdcc47cc34a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AltThree/Logger/zipball/8a92e00787c590cba797dd43a5e568cee2c0b60b",
-                "reference": "8a92e00787c590cba797dd43a5e568cee2c0b60b",
+                "url": "https://api.github.com/repos/AltThree/Logger/zipball/2456ec8e0ddee1d140c7cedcc04fabdcc47cc34a",
+                "reference": "2456ec8e0ddee1d140c7cedcc04fabdcc47cc34a",
                 "shasum": ""
             },
             "require": {
@@ -128,7 +128,7 @@
                 "logger",
                 "logging"
             ],
-            "time": "2015-06-26 18:42:28"
+            "time": "2015-07-06 16:40:27"
         },
         {
             "name": "bugsnag/bugsnag",
@@ -667,16 +667,16 @@
         },
         {
             "name": "graham-campbell/exceptions",
-            "version": "v3.1.0",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GrahamCampbell/Laravel-Exceptions.git",
-                "reference": "c50a0378be628d6b7cfea18d0316fa841fec6676"
+                "reference": "9362bf621e13b543694964a6adad728d57e9201b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GrahamCampbell/Laravel-Exceptions/zipball/c50a0378be628d6b7cfea18d0316fa841fec6676",
-                "reference": "c50a0378be628d6b7cfea18d0316fa841fec6676",
+                "url": "https://api.github.com/repos/GrahamCampbell/Laravel-Exceptions/zipball/9362bf621e13b543694964a6adad728d57e9201b",
+                "reference": "9362bf621e13b543694964a6adad728d57e9201b",
                 "shasum": ""
             },
             "require": {
@@ -696,7 +696,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -728,7 +728,7 @@
                 "laravel",
                 "whoops"
             ],
-            "time": "2015-06-26 17:05:53"
+            "time": "2015-07-06 14:52:42"
         },
         {
             "name": "graham-campbell/github",
