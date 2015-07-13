@@ -49,7 +49,7 @@
             <h3><%= repo.name %></h3>
                 <% if (repo.last_commit) { %>
                 <p class="js-status" style="<% if (repo.last_commit.status === 1) { %> color:green; <% } else if (repo.last_commit.status > 1) { %> color:red; <% } else { %> color:grey; <% } %>">
-                    <strong><%= repo.last_commit.summary %></strong>
+                    <strong><%- repo.last_commit.summary %></strong>
                 </p>
                 <% } else { %>
                 <p class="js-status">
