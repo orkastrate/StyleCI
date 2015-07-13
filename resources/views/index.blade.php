@@ -1,6 +1,6 @@
 @extends('layouts.default')
 
-@section('title', 'The PHP Coding Style Continuous Integration Service')
+@section('title', 'Home')
 
 @section('top')
 <header id="top" class="home-header">

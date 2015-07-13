@@ -1,6 +1,6 @@
 @extends('layouts.default')
 
-@section('title', 'Repositories')
+@section('title', 'Analysed Repos')
 
 @section('top')
 <div class="page-heading">

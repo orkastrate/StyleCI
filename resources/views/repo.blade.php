@@ -6,7 +6,7 @@
 <div class="page-heading">
     <div class="container">
         <h1>{{ $repo->name }}</h1>
-        <p>Here you can see all the analysed commits</p>
+        <p>Here you can see all the analysed commits.</p>
     </div>
 </div>
 @stop

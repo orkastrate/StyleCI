@@ -1,6 +1,6 @@
 @extends('layouts.default')
 
-@section('title', 'Commit - '.$commit->message)
+@section('title', $analysis->repo->name)
 @section('description', $commit->message)
 
 @section('top')
