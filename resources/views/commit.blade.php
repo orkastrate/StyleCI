@@ -1,7 +1,6 @@
 @extends('layouts.default')
 
-@section('title', $analysis->repo->name)
-@section('description', $commit->message)
+@section('title', $commit->repo->name)
 
 @section('top')
 <div class="page-heading">
