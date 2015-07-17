@@ -146,7 +146,6 @@ return [
         'Fideloper\Proxy\TrustedProxyServiceProvider',
         'McCool\LaravelAutoPresenter\AutoPresenterServiceProvider',
         'Vinkla\Pusher\PusherServiceProvider',
-        'AltThree\Bugsnag\BugsnagServiceProvider',
         'AltThree\Logger\LoggerServiceProvider',
         'GrahamCampbell\Core\CoreServiceProvider',
         'GrahamCampbell\GitHub\GitHubServiceProvider',
