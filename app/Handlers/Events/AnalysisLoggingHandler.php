@@ -67,24 +67,24 @@ class AnalysisLoggingHandler
         }
 
         if ($event instanceof CleanupHasCompletedEvent) {
-            $this->logger->error("Analysis has failed due to it timing out.", $this->getContext($commit));
+            $this->logger->error('Analysis has failed due to it timing out.', $this->getContext($commit));
 
             return; // if we've cleaned up a commit, stop here
         }
 
         switch ($commit->status) {
             case 0:
-                $this->logger->debug("Analysis has started.", $this->getContext($commit));
+                $this->logger->debug('Analysis has started.', $this->getContext($commit));
                 break;
             case 1:
             case 2:
-                $this->logger->debug("Analysis has completed successfully.", $this->getContext($commit));
+                $this->logger->debug('Analysis has completed successfully.', $this->getContext($commit));
                 break;
             case 3:
-                $this->logger->error("Analysis of has failed due to an internal error.", $this->getContext($commit));
+                $this->logger->error('Analysis of has failed due to an internal error.', $this->getContext($commit));
                 break;
             case 4:
-                $this->logger->notice("Analysis of has failed due to misconfiguration.", $this->getContext($commit));
+                $this->logger->notice('Analysis of has failed due to misconfiguration.', $this->getContext($commit));
                 break;
         }
     }
