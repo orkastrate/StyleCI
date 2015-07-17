@@ -67,24 +67,24 @@ class AnalysisLoggingHandler
         }
 
         if ($event instanceof CleanupHasCompletedEvent) {
-            $this->logger->error("Analysis of {$commit->id} has failed due to it timing out.", $this->getContext('Analysis timed out.', $commit));
+            $this->logger->error("Analysis has failed due to it timing out.", $this->getContext($commit));
 
             return; // if we've cleaned up a commit, stop here
         }
 
         switch ($commit->status) {
             case 0:
-                $this->logger->debug("Analysis of {$commit->id} has started.", $this->getContext('Analysis started.', $commit));
+                $this->logger->debug("Analysis has started.", $this->getContext($commit));
                 break;
             case 1:
             case 2:
-                $this->logger->debug("Analysis of {$commit->id} has completed successfully.", $this->getContext('Analysis completed.', $commit));
+                $this->logger->debug("Analysis has completed successfully.", $this->getContext($commit));
                 break;
             case 3:
-                $this->logger->error("Analysis of {$commit->id} has failed due to an internal error.", $this->getContext('Analysis errored.', $commit));
+                $this->logger->error("Analysis of has failed due to an internal error.", $this->getContext($commit));
                 break;
             case 4:
-                $this->logger->notice("Analysis of {$commit->id} has failed due to misconfiguration.", $this->getContext('Analysis misconfigured.', $commit));
+                $this->logger->notice("Analysis of has failed due to misconfiguration.", $this->getContext($commit));
                 break;
         }
     }
@@ -92,13 +92,12 @@ class AnalysisLoggingHandler
     /**
      * Get the context.
      *
-     * @param string                         $title
      * @param \StyleCI\StyleCI\Models\Commit $commit
      *
      * @return array
      */
-    protected function getContext($title, Commit $commit)
+    protected function getContext(Commit $commit)
     {
-        return ['title' => $title, 'commit' => $this->presenter->decorate($commit)->toArray()];
+        return ['commit' => $this->presenter->decorate($commit)->toArray()];
     }
 }
