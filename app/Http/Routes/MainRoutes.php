@@ -44,11 +44,6 @@ class MainRoutes
             'uses' => 'HomeController@handlePrivacy',
         ]);
 
-        $router->get('security', [
-            'as'   => 'security_policy',
-            'uses' => 'HomeController@handleSecurity',
-        ]);
-
         $router->get('terms', [
             'as'   => 'terms_of_service',
             'uses' => 'HomeController@handleTerms',
