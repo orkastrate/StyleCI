@@ -10,6 +10,7 @@
 <h2>General Information</h2>
 
 <p class="lead">Our terms of service will be available shortly.</p>
+<p>Are you looking for our privacy policy?. View it <a href="{{ route('privacy_policy') }}">here</a>.
 
 <h2>Questions</h2>
 
