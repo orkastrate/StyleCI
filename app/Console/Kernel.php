@@ -15,6 +15,7 @@ use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 use StyleCI\StyleCI\Console\Commands\CleanupCommand;
 use StyleCI\StyleCI\Console\Commands\GarbageCollectCommand;
+use StyleCI\StyleCI\Console\Commands\UserCommand;
 
 /**
  * This is the console kernel class.
