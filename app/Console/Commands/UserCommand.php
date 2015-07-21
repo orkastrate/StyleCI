@@ -44,7 +44,7 @@ class UserCommand extends Command
      */
     public function handle()
     {
-        $this->info('Check all user accounts.');
+        $this->info('Checking all user accounts.');
 
         $count = 0;
         $factory = app(ClientFactory::class);
