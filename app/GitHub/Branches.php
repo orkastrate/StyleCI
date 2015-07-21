@@ -49,7 +49,7 @@ class Branches
      */
     public function get(Repo $repo)
     {
-        $client = $this->factory->make($repo, ['version' => 'quicksilver-preview']);
+        $client = $this->factory->make($repo);
         $paginator = new ResultPager($client);
 
         $raw = $paginator->fetchAll($client->repos(), 'branches', explode('/', $repo->name));

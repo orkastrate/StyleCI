@@ -68,7 +68,7 @@ class Status
             'context'     => 'StyleCI',
         ];
 
-        $client = $this->factory->make($repo, ['version' => 'quicksilver-preview']);
+        $client = $this->factory->make($repo);
 
         $client->repos()->statuses()->create($args[0], $args[1], $commit->id, $data);
     }

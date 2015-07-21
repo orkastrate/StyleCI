@@ -83,7 +83,7 @@ class Collaborators
      */
     protected function fetchFromGitHub(User $user, $name)
     {
-        $client = $this->factory->make($user, ['version' => 'quicksilver-preview']);
+        $client = $this->factory->make($user);
         $paginator = new ResultPager($client);
 
         $list = [];
