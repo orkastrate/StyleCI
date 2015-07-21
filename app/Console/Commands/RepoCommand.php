@@ -55,9 +55,9 @@ class RepoCommand extends Command
                 $this->error("Orphaned repo: {$repo->id}, {$repo->name}");
             } else {
                 try {
-                    $factory->make($repo)->repo()->collaborators()->all();
+                    $name = explode('/', $repo->name);
+                    $factory->make($repo)->repo()->collaborators()->all($name[0], $name[1]);
                 } catch (Exception $e) {
-                    $this->comment((string) $e);
                     $count++;
                     $this->error("Bad repo: {$repo->id}, {$repo->name}");
                 }
