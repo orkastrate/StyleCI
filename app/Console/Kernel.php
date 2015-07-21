@@ -31,6 +31,7 @@ class Kernel extends ConsoleKernel
     protected $commands = [
         CleanupCommand::class,
         GarbageCollectCommand::class,
+        UserCommand::class,
     ];
 
     /**
