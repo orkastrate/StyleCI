@@ -57,6 +57,7 @@ class RepoCommand extends Command
                 try {
                     $factory->make($repo)->repo()->collaborators()->all();
                 } catch (Exception $e) {
+                    $this->comment((string) $e);
                     $count++;
                     $this->error("Bad repo: {$repo->id}, {$repo->name}");
                 }
