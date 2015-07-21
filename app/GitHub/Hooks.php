@@ -52,7 +52,7 @@ class Hooks
     {
         $url = route('webhook_callback');
         $args = explode('/', $repo->name);
-        $hooks = $this->factory->make($repo, ['version' => 'quicksilver-preview'])->repo()->hooks();
+        $hooks = $this->factory->make($repo)->repo()->hooks();
 
         $events = ['pull_request','push'];
 
@@ -77,7 +77,7 @@ class Hooks
     {
         $url = route('home'); // we want to remove all hooks containing the base url
         $args = explode('/', $repo->name);
-        $client = $this->factory->make($repo, ['version' => 'quicksilver-preview']);
+        $client = $this->factory->make($repo);
         $hooks = $client->repo()->hooks();
         $paginator = new ResultPager($client);
 
