@@ -15,6 +15,7 @@ use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 use StyleCI\StyleCI\Console\Commands\CleanupCommand;
 use StyleCI\StyleCI\Console\Commands\GarbageCollectCommand;
+use StyleCI\StyleCI\Console\Commands\RepoCommand;
 use StyleCI\StyleCI\Console\Commands\UserCommand;
 
 /**
@@ -32,6 +33,7 @@ class Kernel extends ConsoleKernel
     protected $commands = [
         CleanupCommand::class,
         GarbageCollectCommand::class,
+        RepoCommand::class,
         UserCommand::class,
     ];
 
