@@ -17,11 +17,11 @@ use StyleCI\StyleCI\GitHub\ClientFactory;
 use StyleCI\StyleCI\Models\User;
 
 /**
- * This is the garbage collect command class.
+ * This is the user command class.
  *
  * @author Graham Campbell <graham@alt-three.com>
  */
-class GarbageCollectCommand extends Command
+class UserCommand extends Command
 {
     /**
      * The console command name.
