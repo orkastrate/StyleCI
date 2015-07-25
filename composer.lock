@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "alt-three/logger",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/AltThree/Logger.git",
-                "reference": "2456ec8e0ddee1d140c7cedcc04fabdcc47cc34a"
+                "reference": "5f54aae25e8a91ff8f30fec65f619c70ec9db27c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AltThree/Logger/zipball/2456ec8e0ddee1d140c7cedcc04fabdcc47cc34a",
-                "reference": "2456ec8e0ddee1d140c7cedcc04fabdcc47cc34a",
+                "url": "https://api.github.com/repos/AltThree/Logger/zipball/5f54aae25e8a91ff8f30fec65f619c70ec9db27c",
+                "reference": "5f54aae25e8a91ff8f30fec65f619c70ec9db27c",
                 "shasum": ""
             },
             "require": {
@@ -65,7 +65,7 @@
                 "logger",
                 "logging"
             ],
-            "time": "2015-07-06 16:40:27"
+            "time": "2015-07-24 12:19:09"
         },
         {
             "name": "classpreloader/classpreloader",
