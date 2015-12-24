@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3d5c77c685924e61f2b38c7c09cb6018",
-    "content-hash": "5b7cd565c3748258a585f01c4d61a844",
+    "hash": "bdb35f285d981506465e5b62e8d1f944",
+    "content-hash": "ae79a6698f5d3072d6550a88e3d4ea8c",
     "packages": [
         {
             "name": "alt-three/logger",
@@ -797,16 +797,16 @@
         },
         {
             "name": "fideloper/proxy",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fideloper/TrustedProxy.git",
-                "reference": "cc7937c3b4e285e24e020beeaff331180a641e6d"
+                "reference": "ec4dd30141e2515e307aea3539ff242e85c3f120"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fideloper/TrustedProxy/zipball/cc7937c3b4e285e24e020beeaff331180a641e6d",
-                "reference": "cc7937c3b4e285e24e020beeaff331180a641e6d",
+                "url": "https://api.github.com/repos/fideloper/TrustedProxy/zipball/ec4dd30141e2515e307aea3539ff242e85c3f120",
+                "reference": "ec4dd30141e2515e307aea3539ff242e85c3f120",
                 "shasum": ""
             },
             "require": {
@@ -820,7 +820,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -844,7 +844,7 @@
                 "proxy",
                 "trusted proxy"
             ],
-            "time": "2015-02-04 20:24:17"
+            "time": "2015-12-24 15:02:55"
         },
         {
             "name": "gitonomy/gitlib",
@@ -1840,12 +1840,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "a74a60697d370debfc9fd53ba2c4ba4c7fc68c3f"
+                "reference": "5be7f261e8a2f03d6fa6be99eb79e261a880421d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/a74a60697d370debfc9fd53ba2c4ba4c7fc68c3f",
-                "reference": "a74a60697d370debfc9fd53ba2c4ba4c7fc68c3f",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/5be7f261e8a2f03d6fa6be99eb79e261a880421d",
+                "reference": "5be7f261e8a2f03d6fa6be99eb79e261a880421d",
                 "shasum": ""
             },
             "require": {
@@ -1960,7 +1960,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-12-22 19:49:25"
+            "time": "2015-12-24 15:05:06"
         },
         {
             "name": "league/flysystem",
